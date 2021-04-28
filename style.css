@@ -1,4 +1,21 @@
-body{
-    background-color: cadetbliue;
+*{
+    box-sizing: border-box;
 }
+body{
+    margin: 0;
+}
+.grid-container{
+    height: 10px;
+    display: grid;
+    grid-template-columns: 250px 150px 250;
+    grid-template-rows: repeat(3, 220px) 80px 200px;
+}
+     header{
+         border: 20px solid red;
+         grid-column: 1/4;
+         grid-row: 2/3;
+     }
+     section{
+
+     }
 
